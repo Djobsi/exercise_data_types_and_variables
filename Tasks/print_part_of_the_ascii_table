@@ -1,0 +1,10 @@
+start = int(input())
+end = int(input())
+
+delimiter = ' '
+
+result = ''
+for num in range(start, end + 1):
+    result += chr(num) + delimiter
+
+print(result)

@@ -1,1 +1,2 @@
 # exercise_data_types_and_variables
+exercise from softuni

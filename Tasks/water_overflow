@@ -1,0 +1,12 @@
+tank_water_capacity = 255
+n = int(input())
+
+total_water = 0
+for _ in range(n):
+    water_liter = int(input())
+    if total_water + water_liter > tank_water_capacity:
+        print('Insufficient capacity!')
+    else:
+        total_water += water_liter
+
+print(f'{total_water}')

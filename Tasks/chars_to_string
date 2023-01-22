@@ -1,0 +1,5 @@
+char = input()
+char_2 = input()
+char_3 = input()
+
+print(f'{char}{char_2}{char_3}', end='')

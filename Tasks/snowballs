@@ -1,0 +1,16 @@
+snowballs = int(input())
+
+best_snowball = float()
+result = ''
+for ball in range(snowballs):
+    snowball_weight = int(input())
+    snowball_time = int(input())
+    snowball_quality = int(input())
+
+    snowball_value = (snowball_weight / snowball_time) ** snowball_quality
+
+    if snowball_value > best_snowball:
+        best_snowball = snowball_value
+        result = f"{snowball_weight} : {snowball_time} = {snowball_value:.0f} ({snowball_quality})"
+
+print(result, end='')
